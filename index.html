@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskRabbit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class = "header">TaskRabbit</h1>
+
+    <div class="form">
+        <h1>Registration</h1>
+        <form name="registration" action="" method="post">
+        <input type="text" name="Firstname" placeholder="Firstname" required/>
+        <input type="text" name="Lastname" placeholder="Lastname" required/>
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="submit" name="submit" value="Register" />
+        </form>
+        <h1>Upload Image</h1>
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+        </form>
+    </div>
+    <div class = "profile py-4">
+        <div id="navigation">
+            <div id="mid-profile-desc">
+                <p><?php echo $userProfileDesc;?></p>
+            </div>
+        </div>
+        <style> 
+            .profile py-4{ 
+              position: profile py-4; 
+            } 
+            .move-right { 
+              position: absolute; 
+              left: 1200px; 
+                margin-top: -10px;
+            } 
+          </style> 
+          <style> 
+            .move-up { 
+              margin-top: -10px;
+            } 
+          </style> 
+          <title>Move Text Up Example</title>
+           
+          <div class="profile py-4"> 
+            <p><div class="move-right"><div class="card-body">
+                <h1>profile</h1>
+                <input type="text" name="Student ID" placeholder="Student ID" required/>
+                <input type="text" name="Class" placeholder="Class" required/>
+                <input type="text" name="Section" placeholder="Section" required/>
+            </div></div> </p>
+            <p class="move-up"></p>
+            
+            <style> 
+                .move-up { 
+                  margin-top: -220px; 
+                } 
+              </style> 
+            <title>Move Text Up Example</title> 
+          </div> 
+          <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li class="checked"><button type="button">Pay Bills</button></li>
+            <li><button type="button">Go to Gym></li>
+            <li><button type="button">Study</button></li>
+            <li><button type="button">Read a book</button></li>
+          </ul>
+          <style> 
+            .move-up { 
+              margin-top: 220px; 
+            } 
+          </style> 
+    </div>
+        
+        
+</body>
+</html>

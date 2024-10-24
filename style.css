@@ -1,0 +1,11 @@
+*{
+    margin: 25;
+    padding: 0;
+}
+.header{
+    background-color:yellowgreen;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    
+}
